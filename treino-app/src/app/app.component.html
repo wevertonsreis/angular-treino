@@ -1,0 +1,12 @@
+<app-musica-tabela
+  [musicas]="musicas">
+</app-musica-tabela>
+
+<app-carregamento
+  [exibir]="exibirCarregamento">
+</app-carregamento>
+
+<app-menssagem-erro
+  [exibir]="exibirMensagemErro"
+  (clickLink)="carregarMusicas($event)">
+</app-menssagem-erro>

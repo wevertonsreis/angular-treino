@@ -1,0 +1,9 @@
+.musica-tabela {
+  border: 1px solid;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.musica-tabela thead tr th {
+  background-color: deepskyblue;
+}

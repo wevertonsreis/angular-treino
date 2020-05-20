@@ -1,0 +1,14 @@
+<table class="musica-tabela" *ngIf="musicas.length">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Nome</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="musicas.length">
+    <tr *ngFor="let musica of musicas">
+      <td>{{ musica.codigo }}</td>
+      <td>{{ musica.nome }}</td>
+    </tr>
+  </tbody>
+</table>

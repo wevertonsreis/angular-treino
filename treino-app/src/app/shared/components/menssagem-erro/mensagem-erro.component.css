@@ -1,0 +1,12 @@
+.mensagem-erro {
+  border: 1px solid;
+  padding: 20px;
+  background-color: rgb(216, 78, 78);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.mensagem-erro a {
+  color: rgb(204, 204, 247);
+}
